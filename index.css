@@ -30,7 +30,7 @@ header nav p a{
 	text-decoration: none;
 	color: black;
 	margin: 10px;
-	font-family: lobster;
+	font-family: cursive;
 	color: white;
 	text-shadow: 0px 0px 2px black;
 }
@@ -52,7 +52,7 @@ header div:nth-child(2) p:nth-child(1){
 }
 
 header div:nth-child(2) p:nth-child(2){
-	font-family: lobster;
+	font-family: cursive;
 	font-size: 15px;
 }
 
