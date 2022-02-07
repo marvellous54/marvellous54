@@ -120,9 +120,28 @@ header div:nth-child(2) p:nth-child(3){
 /*-------------SECTION_2------------------*/
 #section-2{
 	width: 100%;
-	height: 100vh;
+	height: 30vh;
 	text-align: center;
 	font-family: calibri;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	flex-flow: column;
+}
+
+.contact-text{
+	font-size: 20px;	
+	font-family: cursive;
+	color: white;
+}
+
+
+.material-icons{
+	color: white;
+	transform: scale(1.5);
+	padding: 10px;
 }
 
 
