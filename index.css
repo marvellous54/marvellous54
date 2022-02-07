@@ -1,3 +1,146 @@
-h1{
-  color: red;
+html, body{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
+
+/*-------------HEADER------------------*/
+header{
+	height:100vh;
+}
+
+header nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+}
+
+header nav p{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav p a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	font-family: lobster;
+	color: white;
+	text-shadow: 0px 0px 2px black;
+}
+
+header div:nth-child(2){
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 80vh;
+	background-color: white;
+}
+
+header div:nth-child(2) p:nth-child(1){
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header div:nth-child(2) p:nth-child(2){
+	font-family: lobster;
+	font-size: 15px;
+}
+
+header div:nth-child(2) p:nth-child(3){
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*HEADER_CLASS------------*/
+.Welcome{
+	display: flex;
+	flex-flow: column;
+}
+
+.header-footer{
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*HEADER_CLASS------------*/
+/*-------------HEADER------------------*/
+
+
+
+/*-------------SECTION_1------------------*/
+#section-1{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	font-family: calibri;
+}
+
+.heading{
+	font-weight: bold;
+
+}
+
+.details{
+	font-family: monospace;
+}
+
+#section-1 .section-1-img{
+	width: 100%;
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.About{
+	background-image: url(images/profile.jpg);
+}
+
+.Job{
+	background-image: url(images/dj.jpg);
+}
+
+.Price{
+	background-image: url(images/Price.jpg);
+	margin-bottom: -20px;
+}
+
+/*-------------SECTION_2------------------*/
+#section-2{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	font-family: calibri;
+}
+
+
+
+/*-------------MEDIA-QUERY------------------*/
+@media all and (min-width: 600px){
+	header div:nth-child(2) p{
+		margin-right: 30px;
+		transform: scale(1.5);
+	}
+
+	nav{
+		font-size: 20px;
+	}
+
+	#section-1 .section-1-img{
+		height: 65vh;
+	}
+}
+/*-------------MEDIA-QUERY------------------*/
+
