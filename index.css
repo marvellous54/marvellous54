@@ -144,6 +144,20 @@ header div:nth-child(2) p:nth-child(3){
 	padding: 10px;
 }
 
+.tel{
+	color: white;
+	display: flex;
+}
+
+.tel p{
+	padding: 5px;
+}
+
+.whatsapp{
+	color: green;
+}
+
+
 
 
 /*-------------MEDIA-QUERY------------------*/
