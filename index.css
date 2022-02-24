@@ -197,7 +197,7 @@ header div:nth-child(2) p:nth-child(3){
 
 /*--MIXES.HTML-----------------------------------------------------*/
 
-header{
+#latest{
 	height: 10vh;
 	background-image: url(https://user-images.githubusercontent.com/99110645/155459659-92079e3a-a615-4204-997b-fcbe663bf930.jpg);
 	background-repeat: no-repeat;
@@ -208,7 +208,7 @@ header{
 	justify-content: center;
 }
 
-header p{
+#latest p{
 	text-align: center;
 	color: red;
 	font-family: moon dance;
