@@ -5,6 +5,11 @@ html, body{
 	overflow-x: hidden;
 }
 
+*{
+	margin: 0px;
+	overflow-x: hidden;
+}
+
 /*-------------HEADER------------------*/
 header{
 	height:100vh;
@@ -158,6 +163,18 @@ header div:nth-child(2) p:nth-child(3){
 }
 
 
+.update{
+	width: 10em;
+	padding: 0.5em;
+	border-radius: 1.5em;
+	margin: auto;
+	background-color: red;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: cyan;
+}
+
 
 
 /*-------------MEDIA-QUERY------------------*/
@@ -176,4 +193,27 @@ header div:nth-child(2) p:nth-child(3){
 	}
 }
 /*-------------MEDIA-QUERY------------------*/
+
+
+/*--MIXES.HTML-----------------------------------------------------*/
+
+header{
+	height: 10vh;
+	background-image: url(images/latest.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header p{
+	text-align: center;
+	color: red;
+	font-family: moon dance;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
 
